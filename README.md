@@ -1,61 +1,62 @@
 # Lomesh Pawar — Developer Portfolio
 
-> Personal portfolio of **Lomesh Pawar**, an MCA student and aspiring **Java Backend Developer** focused on building practical, reliable web applications and backend systems.
+Personal portfolio for **Lomesh Pawar**, an MCA student focused on Java backend development, REST APIs, and practical full-stack projects.
 
-## 🌐 Live Portfolio
+## 🌐 Live portfolio
 
-**[Visit Portfolio →](https://lomeshpawar.github.io/)**
+**[Visit lomeshpawar.github.io](https://lomeshpawar.github.io/)**
 
-The portfolio highlights my skills, projects, education, certifications, resume, and developer profiles.
+The portfolio is a static site published through GitHub Pages.
 
-## 👨‍💻 About Me
+## About
 
-I am an MCA student with a strong foundation in **Java, Object-Oriented Programming, Spring Boot, REST APIs, SQL, and database-driven application development**.
+I am pursuing a Master of Computer Applications (MCA) and building projects to strengthen my software development skills, especially Java, Spring Boot, databases, and API-driven applications.
 
-I enjoy building practical software projects, learning backend technologies, and improving my problem-solving skills through hands-on development.
-
-**Current focus:** Java Backend Development · Spring Boot · REST APIs · SQL · Software Development
-
-## 🛠️ Technical Skills
+## Technical skills
 
 - **Languages:** Java, Python, JavaScript, SQL
 - **Backend:** Spring Boot, Spring Data JPA, Hibernate, JDBC, REST APIs
 - **Databases:** MySQL, MongoDB
-- **Frontend:** HTML5, CSS3, JavaScript
+- **Frontend:** HTML, CSS, JavaScript
 - **Tools:** Git, GitHub, Maven, Postman
-- **Core Concepts:** OOP, DBMS, SQL, MVC, CRUD, API Integration
+- **Concepts:** OOP, DBMS, MVC, CRUD, API integration
 
-## 🚀 Featured Projects
+## Featured projects
 
-### AI Disaster & Emergency Alert System
-Java and Spring Boot based application for reporting disasters and managing emergency alerts.
+### CounterCheck — Counterfeit Product Detection
+Full-stack academic research project with a Java API, Python AI service, and MySQL persistence.
 
-**Tech:** Java · Spring Boot · MySQL · REST API
+- Repository: https://github.com/lomeshpawar/Counterfeit-Detection-System
+- Frontend preview: https://lomeshpawar.github.io/Counterfeit-Detection-System/
 
-[View Repository →](https://github.com/lomeshpawar/Disaster-Emergency-Alert-System)
+### Disaster & Emergency Alert System
+A web application for emergency alerts, disaster reporting, and safety information using Spring Boot and MySQL.
 
-### Counterfeit Product Detection System
-A web-based system combining a Java backend with an image-processing and machine-learning component for counterfeit product detection.
+- Repository: https://github.com/lomeshpawar/Disaster-Emergency-Alert-System
+- Frontend: https://lomeshpawar.github.io/Disaster-Emergency-Alert-System/
 
-**Tech:** Java · Spring Boot · Python · Flask · OpenCV · TensorFlow · MySQL
+### ADR-DETECT — Pharmacovigilance Learning Module
+An educational React app for practicing adverse drug reaction assessment and reporting workflows.
 
-[View Repository →](https://github.com/lomeshpawar/Counterfeit-Detection-System)
+- Repository: https://github.com/lomeshpawar/ADR-DETECT-An-Interactive-Pharmacovigilance-Module
+- Frontend: https://lomeshpawar.github.io/ADR-DETECT-An-Interactive-Pharmacovigilance-Module/
 
-### ADR-DETECT — Pharmacovigilance Module
-Interactive web application designed to support adverse drug reaction detection and pharmacovigilance workflows.
+### QueueLess — Smart Token Management
+MERN-stack academic project for service-specific digital tokens and staff queue operations.
 
-**Tech:** Spring Boot · Spring Data JPA · React · Tailwind CSS
+- Repository: https://github.com/lomeshpawar/QueueLess
 
-[View Repository →](https://github.com/lomeshpawar/ADR-DETECT-An-Interactive-Pharmacovigilance-Module)
+### Job Mitra — Apna Career Mitra
+Flask-based job portal project with candidate, recruiter, and administrator workflows.
+
+- Repository: https://github.com/lomeshpawar/Job-Mitra-Apna-Career-Mitra
 
 ### Expense Manager
-Web application for managing and tracking personal expenses with database-backed CRUD functionality.
+PHP/MySQL application for tracking income and expense records.
 
-**Tech:** HTML · CSS · JavaScript · PHP · MySQL
+- Repository: https://github.com/lomeshpawar/expense_manager_project
 
-[View Repository →](https://github.com/lomeshpawar/expense_manager_project)
-
-## 🎓 Education
+## Education
 
 **Master of Computer Applications (MCA)**  
 K. K. Wagh Institute of Engineering Education & Research, Nashik
@@ -63,56 +64,29 @@ K. K. Wagh Institute of Engineering Education & Research, Nashik
 **Bachelor of Computer Science (BCS)**  
 K. K. Wagh ACS & CS College, Nashik
 
-## 📄 Resume
+## Resume
 
-[View / Download Resume →](https://lomeshpawar.github.io/Lomeshpawar.pdf)
+[View or download my resume](https://lomeshpawar.github.io/Lomeshpawar.pdf)
 
-## 🔗 Connect With Me
+## Connect
 
-- **GitHub:** [github.com/lomeshpawar](https://github.com/lomeshpawar)
-- **LinkedIn:** [linkedin.com/in/lomesh-pawar](https://www.linkedin.com/in/lomesh-pawar)
-- **Email:** [lomeshpawar11@gmail.com](mailto:lomeshpawar11@gmail.com)
+- GitHub: https://github.com/lomeshpawar
+- LinkedIn: https://www.linkedin.com/in/lomesh-pawar
 
-## 📁 Repository Structure
-
-```text
-lomeshpawar.github.io/
-├── index.html
-├── style.css
-├── script.js
-├── Lomeshpawar.pdf
-├── package.json
-├── deploy.bat
-└── README.md
-```
-
-## 🚀 Run Locally
-
-Clone the repository:
+## Run locally
 
 ```bash
 git clone https://github.com/lomeshpawar/lomeshpawar.github.io.git
 cd lomeshpawar.github.io
-```
-
-Open `index.html` directly in a browser, or run a local server:
-
-```bash
 python -m http.server 3000
 ```
 
-Then open:
+Open `http://localhost:3000` in your browser, or open `index.html` directly.
 
-```text
-http://localhost:3000
-```
+## Deployment
 
-## 📌 Deployment
-
-This repository uses **GitHub Pages** and is published from the `main` branch.
-
-Every update pushed to `main` can be reflected on the live portfolio after GitHub Pages finishes publishing.
+GitHub Pages publishes this user-site repository at `https://lomeshpawar.github.io/`. Push changes to the configured source branch and check the repository's Pages settings if the live page does not update.
 
 ---
 
-**Built and maintained by Lomesh Pawar.**
+Maintained by **Lomesh Pawar**.
