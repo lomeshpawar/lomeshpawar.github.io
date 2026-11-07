@@ -24,13 +24,13 @@ I am pursuing a Master of Computer Applications (MCA) and building projects to s
 ## Featured projects
 
 ### CounterCheck — Counterfeit Product Detection
-Full-stack academic research project with a Java API, Python AI service, and MySQL persistence.
+Experimental full-stack research prototype with a Java Spring Boot API, Python/Flask image-analysis service, and MySQL persistence. The current inference path uses generic ImageNet outputs and image-quality heuristics; it is not a validated counterfeit classifier. GitHub Pages serves only the static frontend.
 
 - Repository: https://github.com/lomeshpawar/Counterfeit-Detection-System
 - Frontend preview: https://lomeshpawar.github.io/Counterfeit-Detection-System/
 
 ### Disaster & Emergency Alert System
-A web application for emergency alerts, disaster reporting, and safety information using Spring Boot and MySQL.
+A deployed demonstration for disaster reporting, emergency-alert viewing, and safety information using Spring Boot and MySQL. Backend authentication and role-based authorization are not yet enforced for all report and alert operations; do not submit real personal or incident data.
 
 - Repository: https://github.com/lomeshpawar/Disaster-Emergency-Alert-System
 - Frontend: https://lomeshpawar.github.io/Disaster-Emergency-Alert-System/
