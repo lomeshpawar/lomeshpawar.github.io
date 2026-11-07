@@ -304,7 +304,7 @@
               <div class="project-title-group">
                 <div class="project-tag-badge">
                   <span class="live-indicator-dot"></span>
-                  <span>Live Production Deployment</span>
+                  <span>Deployed Demo</span>
                 </div>
                 <h3 class="project-name">AI Disaster &amp; Emergency Alert System</h3>
                 <p class="project-role">Backend Developer • TechRedy IT Solutions OJT Project</p>
@@ -312,24 +312,29 @@
             </div>
 
             <p class="project-description">
-              A full-stack emergency response and incident reporting platform engineered to streamline disaster alert broadcasting and emergency report processing during critical situations.
+              A deployed demonstration of a web-based workflow for submitting disaster reports, viewing emergency alerts, and accessing safety information using Spring Boot and MySQL.
             </p>
 
             <div class="project-detail-box">
-              <span class="detail-label">Problem Solved:</span>
+              <span class="detail-label">Project Objective:</span>
               <p class="detail-text">
-                During crisis events, uncoordinated communication creates dangerous bottlenecks. This system centralizes verified disaster reporting, enables real-time emergency alert dispatching, and maintains reliable audit trails between authorities and citizens.
+                The project explores a simple browser-based workflow for collecting incident reports and presenting alert information. It is a demonstration application, not an operational emergency-response service.
               </p>
             </div>
 
             <div class="project-detail-box">
               <span class="detail-label">Key Capabilities &amp; Architecture:</span>
               <ul class="project-bullet-list">
-                <li>Developed Spring Boot REST APIs for disaster incident reporting, alert status tracking, and emergency broadcasting.</li>
-                <li>Engineered CRUD persistence layers using Spring Data JPA and MySQL for resilient data storage and quick retrieval.</li>
-                <li>Secured user authentication with BCrypt hashing and mapped relational user roles for citizen and admin workflows.</li>
-                <li>Integrated client web pages with backend endpoints and performed comprehensive API verification in Postman.</li>
+                <li>Implemented Spring Boot REST endpoints for disaster report submission, alert retrieval, and status updates.</li>
+                <li>Added MySQL persistence through Spring Data JPA for alert, report, and user records.</li>
+                <li>Added BCrypt password hashing and role data for prototype login flows; the current backend does not establish authenticated sessions or enforce admin-only authorization on report and alert operations.</li>
+                <li>Connected the frontend pages to backend endpoints and exercised API flows with Postman.</li>
               </ul>
+            </div>
+
+            <div class="project-detail-box">
+              <span class="detail-label">Current limitations:</span>
+              <p class="detail-text">The deployed URLs are demonstrations only. Report listing and administrative report/alert operations are not adequately protected by server-side authorization. Do not submit real personal or incident data until authentication, authorization, and response privacy controls are implemented.</p>
             </div>
 
             <div class="project-footer">
@@ -367,7 +372,7 @@
               <span class="project-number">02</span>
               <div class="project-title-group">
                 <div class="project-tag-badge">
-                  <span>Multi-Service Architecture</span>
+                  <span>Experimental Multi-Service Prototype</span>
                 </div>
                 <h3 class="project-name">CounterCheck — Counterfeit Product Detection System</h3>
                 <p class="project-role">Backend Developer • Research Project</p>
@@ -375,24 +380,29 @@
             </div>
 
             <p class="project-description">
-              A multi-service web platform that separates web presentation, Java Spring Boot business logic, a Python AI inference service, and MySQL database persistence to analyze product authenticity.
+              A multi-service academic prototype combining a static web interface, Java Spring Boot REST API, Python/Flask image-analysis service, and MySQL persistence. Current inference uses generic ImageNet outputs and image-quality heuristics; it is not a validated counterfeit classifier.
             </p>
 
             <div class="project-detail-box">
-              <span class="detail-label">Problem Solved:</span>
+              <span class="detail-label">Research Objective:</span>
               <p class="detail-text">
-                Detecting fake or counterfeit products requires linking visual deep-learning inference models with transactional application logic, secure authentication, and immutable prediction audit histories.
+                Explore an end-to-end product-image workflow across a browser UI, Java API, Python image-analysis service, and relational persistence. The prototype does not establish whether a product is genuine or counterfeit.
               </p>
             </div>
 
             <div class="project-detail-box">
               <span class="detail-label">Key Capabilities &amp; Architecture:</span>
               <ul class="project-bullet-list">
-                <li>Architected Spring Boot REST APIs for user registration, authentication, prediction logging, and admin operations.</li>
-                <li>Integrated the Java Spring Boot backend with an external Flask/PyTorch AI microservice for image authenticity processing.</li>
-                <li>Modeled and implemented MySQL database integration for users, product analysis outputs, and prediction history records.</li>
-                <li>Configured Docker Compose support for orchestrated multi-service local testing across Java, Python, and MySQL.</li>
+                <li>Implemented Spring Boot REST endpoints for prototype registration/login flows, image submission, prediction history, and admin views; the current main branch does not enforce authenticated sessions or server-side administrator authorization.</li>
+                <li>Connected the Java API to a Python Flask/PyTorch image-analysis service; current inference uses generic ImageNet outputs and image-quality heuristics rather than loading the custom MobileNetV2 checkpoint.</li>
+                <li>Added MySQL persistence for user records and experimental analysis history; stored outputs are not validated authenticity decisions.</li>
+                <li>Configured Docker Compose for local multi-service development. GitHub Pages hosts only the static frontend; backend-dependent features require separately configured Java, AI, and database services.</li>
               </ul>
+            </div>
+
+            <div class="project-detail-box">
+              <span class="detail-label">Current limitations:</span>
+              <p class="detail-text">This is an experimental research prototype, not a validated counterfeit detector. The current main branch has incomplete server-side authorization and unauthenticated uploaded-image access. Do not use it for real purchasing, safety, enforcement, or product-authenticity decisions.</p>
             </div>
 
             <div class="project-footer">
